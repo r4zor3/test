@@ -21,7 +21,7 @@ class TestController extends BaseController {
         $param =  Input::get('param');
         $x = 4; $y = 3;
         if($z && $param){
-            $res = ($x + $y)/$z+$param;
+            $res = ($x + $y)/$z+$param+$z;
         }else{
             $res = $x + $y;
         }
