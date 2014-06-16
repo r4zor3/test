@@ -17,10 +17,10 @@ class TestController extends BaseController {
 
     public function show()
     {
-        $z = Input::get('z');
+        $zz = Input::get('z');
         $x = 4; $y = 3;
-        if($z){
-            $res = ($x + $y)/$z;
+        if($zz){
+            $res = ($x + $y)/$zz
         }else{
             $res = $x + $y;
         }
