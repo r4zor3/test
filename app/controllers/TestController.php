@@ -20,6 +20,7 @@ class TestController extends BaseController {
         $zz = Input::get('z');
         $x = 2; $y = 10;
         //comment
+		$test = 'ttt';
         if($zz){
             $res = ($x + $y)/$zz-$zz;
         }else{
