@@ -41,5 +41,6 @@
     <div class="content">
         Wow,look here - {{$res}} !
     </div>
+	new new new new new new new new
 </body>
 </html>
