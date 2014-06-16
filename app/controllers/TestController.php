@@ -18,9 +18,9 @@ class TestController extends BaseController {
     public function show()
     {
         $zz = Input::get('z');
-        $x = 4; $y = 3;
+        $x = 5; $y = 8;
         if($zz){
-            $res = ($x + $y)/$zz;
+            $res = ($x + $y)/$zz-$zz;
         }else{
             $res = $x + $y;
         }
