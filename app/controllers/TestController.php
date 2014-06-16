@@ -18,7 +18,8 @@ class TestController extends BaseController {
     public function show()
     {
         $zz = Input::get('z');
-        $x = 2; $y = 10;
+        $x = 20; $y = 100;
+        $r = 3;
         //comment
 		$test = 'ttt';
         if($zz){
