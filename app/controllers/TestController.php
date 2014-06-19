@@ -21,6 +21,7 @@ class TestController extends BaseController {
         $x = 20; $y = 100;
         $r = 3;
         //comment
+		$commit1 = $x+$y+$z;
 		$test = 'tttttt';
 		$test2 = 'asd';
         if($zz){

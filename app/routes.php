@@ -16,5 +16,5 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
-Route::get('/test', array('as' => 'test',
+Route::get('/test2', array('as' => 'test',
     'uses' => 'TestController@show'));
